@@ -37,6 +37,11 @@
     <v-main>
       <v-container>
         <nuxt />
+         <iframe src="buildbox-animation.html"
+                 allowfullscreen
+                 style="position: absolute; top: 0px; left: 0px; height: 100%; width: 1px; min-width: 100%; *width: 100%;"
+                 frameborder="0"
+                 scrolling="no" />
       </v-container>
     </v-main>
     <v-footer
